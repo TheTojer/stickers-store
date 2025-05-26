@@ -1,12 +1,12 @@
 # stickers-store
 
 ### Stickers 1
-<div style="display: flex; justify-content: space-between;">
-    <figure style="margin: 0; width: 48%;">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
+    <figure style="margin: 0; flex: 0 0 calc(50% - 5px);">
         <img src="./stickers-1/background-angry.png" style="width: 100%; height: auto;"/>
         <figcaption>Эмоция "angry" с фоном</figcaption>
     </figure>
-    <figure style="margin: 0; width: 48%;">
+    <figure style="margin: 0; flex: 0 0 calc(50% - 5px);">
         <img src="./stickers-1/without-background-angry.png" style="width: 100%; height: auto;"/>
         <figcaption>Эмоция "angry" без фона</figcaption>
     </figure>
