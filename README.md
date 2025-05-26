@@ -3,11 +3,11 @@
 ### Stickers 1
 <div style="display: flex; justify-content: space-between;">
     <figure style="margin: 0; width: 48%;">
-        <img src="./stickers-1/background-angry.png" width="100%"/>
+        <img src="./stickers-1/background-angry.png" style="width: 100%; height: auto;"/>
         <figcaption>Эмоция "angry" с фоном</figcaption>
     </figure>
     <figure style="margin: 0; width: 48%;">
-        <img src="./stickers-1/without-background-angry.png" width="100%"/>
+        <img src="./stickers-1/without-background-angry.png" style="width: 100%; height: auto;"/>
         <figcaption>Эмоция "angry" без фона</figcaption>
     </figure>
 </div>
