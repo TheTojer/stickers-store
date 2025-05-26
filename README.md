@@ -1,16 +1,18 @@
 # stickers-store
 
 ### Stickers 1
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-    <figure style="margin: 0;">
+
+<div style="font-size: 0; text-align: center;">
+    <figure style="display: inline-block; width: 48%; margin: 0 1% 10px 0; vertical-align: top; font-size: 16px;">
         <img src="./stickers-1/background-angry.png" style="width: 100%; height: auto;"/>
         <figcaption>Зеленый плейсхолдер</figcaption>
     </figure>
-    <figure style="margin: 0;">
+    <figure style="display: inline-block; width: 48%; margin: 0 0 10px 1%; vertical-align: top; font-size: 16px;">
         <img src="./stickers-1/without-background-angry.png" style="width: 100%; height: auto;"/>
         <figcaption>Версия без фона</figcaption>
     </figure>
 </div>
+
 <div style="display: flex; justify-content: space-between;">
     <figure style="margin: 0; width: 48%;">
         <img src="./stickers-1/background-attentive.png" width="100%"/>
