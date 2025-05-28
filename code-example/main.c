@@ -4,5 +4,9 @@
 
 int main(void)
 {
+    WNDCLASSA wcl;
+    memset(&wcl, 0, sizeof(WNDCLASSA));
+    wcl.lpfnWndProc = DefWindowProcA;
+    wcl.lpszClassName = "My own class window";
     return 0;
 }
