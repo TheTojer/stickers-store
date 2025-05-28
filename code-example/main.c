@@ -11,5 +11,9 @@ int main(void)
         fprintf(stderr, "Failed init sockets.\n");
         return 1;
     }
+    WNDCLASSA wcl;
+    memset(&wcl, 0, sizeof(WNDCLASSA));
+    wcl.lpfnWndProc = DefWindowProcA;
+    wcl.lpszClassName = "My own class window";
     return 0;
 }
